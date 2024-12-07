@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 1 - Mi Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Estilo adicional para la galería de imágenes */
+    .proyecto-detalle {
+      text-align: center;
+      margin: 2rem auto;
+      max-width: 800px;
+    }
+    .proyecto-detalle img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .galeria img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- Barra de navegación fija -->
+  <nav>
+    <ul>
+      <li><a href="index.html#inicio">Inicio</a></li>
+      <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+      <li><a href="index.html#proyectos">Proyectos</a></li>
+      <li><a href="index.html#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Detalle del Proyecto 1 -->
+  <section id="proyecto-detalle">
+    <h2>REVISTA DEPORTIVA</h2>
+    <div class="proyecto-detalle">
+      <p>
+
+        Este proyecto consistió en la creación de una revista deportiva desde cero, donde el objetivo principal era capturar la energía, pasión y dinamismo del deporte a través del diseño gráfico. Trabajé en todos los aspectos del proyecto, desde la conceptualización del nombre y la identidad visual de la revista, hasta la maquetación de cada una de sus secciones.
+        
+        Opté por una combinación de colores vibrantes y tipografías modernas para reflejar la intensidad del mundo deportivo, utilizando imágenes de acción de alta calidad que conectan al lector con la emoción del momento. La estructura de la revista incluye secciones dedicadas a noticias, análisis de competencias, entrevistas a atletas y consejos para mantener un estilo de vida activo. Este proyecto me permitió explorar el equilibrio entre la funcionalidad y la estética, creando un diseño atractivo que guía al lector de manera intuitiva.
+        
+        </p>
+    </div>
+
+    <!-- Galería de imágenes -->
+    <div class="galeria">
+      <img src="imagenes/proyecto1.png" alt="Primera imagen del Proyecto 1">
+      <img src="imagenes/proyecto11.png" alt="Segunda imagen del Proyecto 1">
+      <img src="imagenes/proyecto111.png" alt="Tercera imagen del Proyecto 1">
+      <img src="imagenes/proyecto1111.png" alt="Cuarta imagen del Proyecto 1">
+      <img src="imagenes/proyecto11111.png" alt="Quinta imagen del Proyecto 1">
+      <img src="imagenes/proyecto111111.png" alt="Sexta imagen del Proyecto 1">
+    </div>
+  </section>
+
+  <!-- Volver a la página principal -->
+  <footer>
+    <p>&copy; 2024 Melanthony Mejia. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

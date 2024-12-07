@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Barra de navegación fija con efecto difuminado */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px 0;
+      z-index: 100;
+      backdrop-filter: blur(10px); /* Aplica el efecto difuminado */
+      background-color: rgba(0, 0, 0, 0.4); /* Fondo semi-transparente */
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra para mejorar visibilidad */
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+    }
+    nav ul li {
+      margin: 0 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #f1f1f1; /* Efecto de hover */
+    }
+
+    /* Estilos para los proyectos */
+    #proyectos .proyectos-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    #proyectos .proyecto {
+      text-align: center;
+    }
+
+    /* Estilo de la sección "Sobre mí" */
+    #sobre-mi {
+      padding: 40px;
+    }
+
+    #sobre-mi p {
+      margin-bottom: 20px;
+    }
+
+    /* Ajuste para la distancia entre proyectos y contacto */
+    #proyectos {
+      margin-bottom: 80px; /* Añadir más espacio debajo de proyectos */
+    }
+
+    #contacto {
+      padding: 40px;
+      margin-top: 100px; /* Mueve la sección de contacto más abajo */
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Barra de navegación fija -->
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header id="inicio">
+    <div class="banner">
+      <img src="imagenes/Negro Blanco Fotografía Contabilidad Servicio Sitio Web.png" alt="Banner Principal">
+    </div>
+  </header>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy estudiante de Diseño Gráfico en la Universidad Unitec, actualmente en mi último año. A lo largo de mi carrera, he desarrollado una profunda pasión por la creatividad y la comunicación visual. Mi enfoque se ha centrado en la creación de soluciones visuales innovadoras que conecten con el público de manera efectiva. He tenido la oportunidad de trabajar en una variedad de proyectos que incluyen diseño de identidad visual, publicidad, diseño digital y más. Mi objetivo es utilizar el diseño como una herramienta poderosa para contar historias y transmitir mensajes claros y memorables. En este portafolio, compartiré mis trabajos más relevantes, los cuales reflejan mi evolución como diseñador, mis habilidades técnicas y mi capacidad para enfrentar desafíos creativos.</p>
+    
+    <p>Desde pequeño, siempre me atrajo la forma en que los colores y las imágenes podían transformar cualquier mensaje. Recuerdo que, a los diez años, creé mi primer "logo" para un pequeño negocio de repostería que tenía mi madre. Aunque era muy sencillo, ese primer contacto con el diseño me hizo darme cuenta de que había algo fascinante en la capacidad del diseño gráfico para comunicar ideas y emociones de una forma tan directa. A medida que fui creciendo, comencé a experimentar con herramientas digitales y a diseñar carteles para eventos escolares. Fue entonces cuando decidí que quería estudiar Diseño Gráfico, ya que sentí que podía hacer algo significativo a través de la creación visual.</p>
+
+    <p>Al entrar a la Universidad Unitec, descubrí que el diseño gráfico era mucho más que crear imágenes bonitas: se trataba de entender las necesidades del cliente, contar historias visuales y resolver problemas de comunicación. A lo largo de mis estudios, mi pasión por el diseño creció y se transformó en una verdadera vocación. He aprendido a combinar la creatividad con el pensamiento estratégico, y cada proyecto se ha convertido en una oportunidad para mejorar mis habilidades y aportar algo único. Hoy, como estudiante de último año, miro atrás y me doy cuenta de lo lejos que he llegado, siempre inspirado por el impacto que el diseño gráfico puede tener en la sociedad.</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>PROYECTOS REALIZADOS </h2>
+    <div class="proyectos-grid">
+      <div class="proyecto">
+        <a href="proyecto1.html">
+          <img src="imagenes/proyecto11.png" alt="Proyecto 1">
+          <h3>REVISTAS</h3>
+        </a>
+        <p>Revista deportiva: Diseño y concepto</p>
+      </div>
+      <div class="proyecto">
+        <a href="proyecto2.html">
+          <img src="imagenes/proyecto3.png" alt="Proyecto 2">
+          <h3>FICHAS</h3>
+        </a>
+        <p>Fichas de apoyo emocional.</p>
+      </div>
+      <div class="proyecto">
+        <a href="proyecto3.html">
+          <img src="imagenes/PROYECTO 2.png" alt="Proyecto 3">
+          <h3>DISEÑO DE ROTULOS</h3>
+        </a>
+        <p>Diseño de rótulos personalizados.</p>
+      </div>
+      <div class="proyecto">
+        <a href="proyecto4.html">
+          <img src="imagenes/proyecto 4.png" alt="Proyecto 4">
+          <h3>MARCAS</h3>
+        </a>
+        <p>Diseño de marcas.</p>
+      </div>
+      <div class="proyecto">
+        <a href="proyecto5.html">
+          <img src="imagenes/proyecto54.jpeg" alt="Proyecto 5">
+          <h3>EDICION DE VIDEO
+          
+          </h3>
+        </a>
+        <p>Descripción del proyecto 5.</p>
+      </div>
+      <div class="proyecto">
+        <a href="proyecto6.html">
+          <img src="imagenes/cv.png" alt="CV">
+          <h3>Proyecto 6</h3>
+        </a>
+        <p>CV PERSONAL</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p class="descripcion-contacto">Si tienes alguna pregunta, inquietud o deseas colaborar en un proyecto, no dudes en enviarme un mensaje. Estoy disponible para nuevas oportunidades y desafíos creativos.</p>
+    <form action="#" method="post">
+      <div class="input-container">
+        <input type="text" name="nombre" placeholder="" required>
+        <label for="nombre"><i class="fas fa-user"></i> Nombre</label>
+      </div>
+      <div class="input-container">
+        <input type="email" name="email" placeholder="" required>
+        <label for="email"><i class="fas fa-envelope"></i> Correo electrónico</label>
+      </div>
+      <div class="input-container">
+        <textarea name="mensaje" placeholder="" required></textarea>
+        <label for="mensaje"><i class="fas fa-comment"></i> Mensaje</label>
+      </div>
+      <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Melanthony Mejia. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

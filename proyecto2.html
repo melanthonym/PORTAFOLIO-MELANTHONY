@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 2 - Mi Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Estilo adicional para la galería de imágenes */
+    .proyecto-detalle {
+      text-align: center;
+      margin: 2rem auto;
+      max-width: 800px;
+    }
+    .proyecto-detalle img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .galeria img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- Barra de navegación fija -->
+  <nav>
+    <ul>
+      <li><a href="index.html#inicio">Inicio</a></li>
+      <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+      <li><a href="index.html#proyectos">Proyectos</a></li>
+      <li><a href="index.html#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Detalle del Proyecto 2 -->
+  <section id="proyecto-detalle">
+    <h2>Proyecto 2</h2>
+    <div class="proyecto-detalle">
+      <p>Fichas de apoyo emocional para personas con depresión
+
+        Como parte de mi interés por el diseño con impacto social, desarrollé un proyecto enfocado en la creación de fichas informativas dirigidas a personas que padecen depresión. El objetivo principal de estas fichas es ofrecer orientación, apoyo y recursos útiles de una manera visualmente atractiva y accesible.
+        
+        Cada ficha está diseñada para abordar un aspecto clave relacionado con la depresión, como la identificación de síntomas, técnicas de autocuidado, estrategias para buscar ayuda y mensajes de esperanza. Utilicé una paleta de colores suaves y tipografías legibles para transmitir calma y confianza, complementando el contenido con ilustraciones amigables que refuerzan el mensaje positivo. Este proyecto refleja mi compromiso con el diseño como una herramienta para el bienestar emocional y la conexión humana.
+        
+        .</p>
+    </div>
+
+    <!-- Galería de imágenes -->
+    <div class="galeria">
+      <img src="imagenes/proyecto3.png" alt="Gráfico principal de la campaña">
+      <img src="imagenes/poryecto33333.png" alt="Ejemplo de publicación en redes sociales">
+      <img src="imagenes/proyecto333.png" alt="Diseño del anuncio para la página web">
+      <img src="imagenes/PROYECTO3333.png" alt="Prototipo de animación del anuncio">
+      <img src="imagenes/proyecto33.png" alt="Estadísticas del impacto visual del diseño">
+      <img src="imagenes/proyecto33333.png" alt="Presentación final del proyecto al cliente">
+    </div>
+  </section>
+
+  <!-- Volver a la página principal -->
+  <footer>
+    <p>&copy; 2024 Melanthony Mejia. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
